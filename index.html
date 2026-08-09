@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classmate Timetable</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>📚 Classmate Timetable</h1>
+        <p>Check today's classes easily</p>
+    </header>
+
+    <main>
+
+<section class="today">
+
+    <h2 id="todayDate">Today's Timetable</h2>
+
+    <label for="dayOrder">Select Day Order:</label>
+
+    <select id="dayOrder">
+        <option value="DO-1">DO-1</option>
+        <option value="DO-2">DO-2</option>
+        <option value="DO-3">DO-3</option>
+        <option value="DO-4">DO-4</option>
+        <option value="DO-5">DO-5</option>
+        <option value="DO-6">DO-6</option>
+    </select>
+
+    <p id="currentClass">Checking current class...</p>
+    <p id="nextClass">Checking next class...</p>
+
+</section>
+
+        <section>
+            <h2>Today's Classes</h2>
+
+            <div id="timetable"></div>
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
